@@ -1,0 +1,483 @@
+ubuntu@ip-172-31-87-117:/opt$ history
+    1  cd /
+    2  ls
+    3  df -h
+    4  touch www.flipkart.com
+    5  sudo touch www.flipkart.com
+    6  ls
+    7  exit
+    8  cal
+    9  sudo apt install ncal
+   10  sudo apt-get update ncal
+   11  sudo apt-get install ncal
+   12  ncal
+   13  sudo apt install ncal
+   14  sudo apt update
+   15  sudo apt upgrade
+   16  sudo reboot
+   17  cal
+   18  sudo apt install ncal
+   19  cal
+   20  cal 2022
+   21  clear
+   22  exit
+   23  ls
+   24  ls -la
+   25  touch one
+   26  ls
+   27  touch devops aws linux
+   28  ls
+   29  mkdir pen mobile
+   30  ls
+   31  cd mobile
+   32  ls
+   33  mkdir movies
+   34  ls
+   35  cd movies
+   36  ls
+   37  pwd
+   38  tree
+   39  sudo apt  install tree
+   40  tree
+   41  cd /home/ubuntu
+   42  tree
+   43  ls
+   44  tree ls
+   45  tree -l
+   46  touch chargf
+   47  ls
+   48  mv chargf charger
+   49  ls
+   50  mkdir backup1
+   51  mkdir backup2
+   52  mkdir bcakup3
+   53  mkdir backup4
+   54  ls
+   55  ls -l
+   56  date
+   57  ls -la
+   58  ls -lt
+   59  ls -ltr
+   60  ls -lta
+   61  ls -ltar
+   62  cd /
+   63  ls
+   64  cd mobiles
+   65  cd mobile
+   66  cd /
+   67  ls
+   68  cd mobile
+   69  ls
+   70  cd mobile/
+   71  ls -la
+   72  cd /opt/
+   73  ld
+   74  ls
+   75  mkdir mohan
+   76  cd
+   77  cd /opt/
+   78  sudo mkdir hanok
+   79  ls
+   80  cleared
+   81  clear
+   82  history
+ubuntu@ip-172-31-87-117:/opt$ ls
+hanok  mohan
+ubuntu@ip-172-31-87-117:/opt$ ls -la
+total 16
+drwxr-xr-x  4 root root 4096 Jul 30 12:22 .
+drwxr-xr-x 19 root root 4096 Jul 30 10:46 ..
+drwxr-xr-x  2 root root 4096 Jul 30 12:22 hanok
+drwxr-xr-x  2 root root 4096 Jul 30 12:20 mohan
+ubuntu@ip-172-31-87-117:/opt$ mv hanok mohan
+mv: cannot move 'hanok' to 'mohan/hanok': Permission denied
+ubuntu@ip-172-31-87-117:/opt$ ls
+hanok  mohan
+ubuntu@ip-172-31-87-117:/opt$ sudo mv hanok mohan
+ubuntu@ip-172-31-87-117:/opt$ ls
+mohan
+ubuntu@ip-172-31-87-117:/opt$ sudo touch king
+ubuntu@ip-172-31-87-117:/opt$ sudo mv king mohan
+ubuntu@ip-172-31-87-117:/opt$ ls
+mohan
+ubuntu@ip-172-31-87-117:/opt$ cd mohan
+ubuntu@ip-172-31-87-117:/opt/mohan$ ls
+hanok  king
+ubuntu@ip-172-31-87-117:/opt/mohan$ cd /ubuntu
+-bash: cd: /ubuntu: No such file or directory
+ubuntu@ip-172-31-87-117:/opt/mohan$ cd /home/
+ubuntu@ip-172-31-87-117:/home$ ls
+ubuntu
+ubuntu@ip-172-31-87-117:/home$ cd ubuntu
+ubuntu@ip-172-31-87-117:~$ ls
+aws  backup1  backup2  backup4  bcakup3  charger  devops  linux  mobile  one  pen
+ubuntu@ip-172-31-87-117:~$ rm mobile
+rm: cannot remove 'mobile': Is a directory
+ubuntu@ip-172-31-87-117:~$ rm -rf mobile
+ubuntu@ip-172-31-87-117:~$ ls
+aws  backup1  backup2  backup4  bcakup3  charger  devops  linux  one  pen
+ubuntu@ip-172-31-87-117:~$ rm -rf *
+ubuntu@ip-172-31-87-117:~$ ls
+ubuntu@ip-172-31-87-117:~$ history
+    1  cd /
+    2  ls
+    3  df -h
+    4  touch www.flipkart.com
+    5  sudo touch www.flipkart.com
+    6  ls
+    7  exit
+    8  cal
+    9  sudo apt install ncal
+   10  sudo apt-get update ncal
+   11  sudo apt-get install ncal
+   12  ncal
+   13  sudo apt install ncal
+   14  sudo apt update
+   15  sudo apt upgrade
+   16  sudo reboot
+   17  cal
+   18  sudo apt install ncal
+   19  cal
+   20  cal 2022
+   21  clear
+   22  exit
+   23  ls
+   24  ls -la
+   25  touch one
+   26  ls
+   27  touch devops aws linux
+   28  ls
+   29  mkdir pen mobile
+   30  ls
+   31  cd mobile
+   32  ls
+   33  mkdir movies
+   34  ls
+   35  cd movies
+   36  ls
+   37  pwd
+   38  tree
+   39  sudo apt  install tree
+   40  tree
+   41  cd /home/ubuntu
+   42  tree
+   43  ls
+   44  tree ls
+   45  tree -l
+   46  touch chargf
+   47  ls
+   48  mv chargf charger
+   49  ls
+   50  mkdir backup1
+   51  mkdir backup2
+   52  mkdir bcakup3
+   53  mkdir backup4
+   54  ls
+   55  ls -l
+   56  date
+   57  ls -la
+   58  ls -lt
+   59  ls -ltr
+   60  ls -lta
+   61  ls -ltar
+   62  cd /
+   63  ls
+   64  cd mobiles
+   65  cd mobile
+   66  cd /
+   67  ls
+   68  cd mobile
+   69  ls
+   70  cd mobile/
+   71  ls -la
+   72  cd /opt/
+   73  ld
+   74  ls
+   75  mkdir mohan
+   76  cd
+   77  cd /opt/
+   78  sudo mkdir hanok
+   79  ls
+   80  cleared
+   81  clear
+   82  history
+   83  ls
+   84  ls -la
+   85  mv hanok mohan
+   86  ls
+   87  sudo mv hanok mohan
+   88  ls
+   89  sudo touch king
+   90  sudo mv king mohan
+   91  ls
+   92  cd mohan
+   93  ls
+   94  cd /ubuntu
+   95  cd /home/
+   96  ls
+   97  cd ubuntu
+   98  ls
+   99  rm mobile
+  100  rm -rf mobile
+  101  ls
+  102  rm -rf *
+  103  ls
+  104  history
+
+
+1.8.22
+
+ubuntu@ip-172-31-94-167:/home$ sudo du -sh *
+8.3M    apache-maven-3.8.6-bin.tar.gz
+24K     devteam
+9.9M    maven3.8
+48K     ubuntu
+ubuntu@ip-172-31-94-167:/home$ history
+    1  cd /
+    2  ls
+    3  history
+    4  cal
+    5  sudo apt install ncal
+    6  sudo apt-get update
+    7  sudo apt-get upgrade
+    8  sudo reboot
+    9  ls
+   10  tree
+   11  rm -rf *
+   12  history
+   13  cal
+   14  sudo apt install ncal
+   15  cal
+   16  date
+   17  clear
+   18  cd /
+   19  ls
+   20  df -h
+   21  touch www.flipkart.com
+   22  ls
+   23  cal
+   24  clear
+   25  ls -la
+   26  touch one
+   27  touch mohan
+   28  sudo touch mohan
+   29  ls
+   30  touch devops
+   31  cd /home/ubuntu
+   32  touch devops aws linux
+   33  ls
+   34  touch mohan
+   35  mkdir jyo hanu ruth
+   36  ls
+   37  cd hanu
+   38  pwd
+   39  tree
+   40  sudo apt install tree
+   41  tree
+   42  cd /ubuntu
+   43  cd ..
+   44  tree
+   45  tree -la
+   46  touch byble
+   47  ls
+   48  mv byble bible
+   49  ls
+   50  cd /pot/
+   51  ls
+   52  cd /
+   53  ls
+   54  cd /opt/
+   55  touch m1
+   56  sudo touch m1
+   57  ls
+   58  vi m1
+   59  sudo vi m1
+   60  exit
+   61  history
+   62  clear
+   63  cd /
+   64  ls
+   65  cd /etc/
+   66  ls
+   67  cd ssh
+   68  ls
+   69  sudo vi sshd_config.d
+   70  sudo vi sshd_config
+   71  sudo service ssh restart
+   72  sudo visudo
+   73  clear
+   74  df -h
+   75  df
+   76  df -h
+   77  top
+   78  sudo vi m1
+   79  ced /
+   80  cd /
+   81  ls
+   82  cd /opt/
+   83  ls
+   84  sudo vi m1
+   85  ls
+   86  tree
+   87  cal
+   88  sudo adduser devteam
+   89  ls
+   90  cat m1
+   91  cat /etc/passwd
+   92  sudo su
+   93  cd /home
+   94  ls
+   95  sudo wget https://dlcdn.apache.org/maven/maven-3/3.8.6/binaries/apache-maven-3.8.6-bin.tar.gz
+   96  ls
+   97  sudo tar -xvf apache-maven-3.8.6-bin.tar.gz
+   98  ls
+   99  sudo mv apache-maven-3.8.6 maven3.8
+  100  ls
+  101  ls-la
+  102  du -sh apache-maven-3.8.6-bin.tar.gz
+  103  du -sh *
+  104  sudodu -sh *
+  105  sudo du -sh *
+  106  history
+ubuntu@ip-172-31-94-167:/home$
+
+
+fourth video:
+
+ssh
+
+ssh -i "pr31.7.22.pem" ubuntu@ec2-34-227-158-255.compute-1.amazonaws.com
+
+ip : 34.227.158.255
+user : ubuntu
+pwd/ keypair : "C:\Users\hp\Desktop\PEM FILES\pr31.7.22.pem"
+
+
+https://dlcdn.apache.org/maven/maven-3/3.8.6/binaries/apache-maven-3.8.6-bin.tar.gz
+
+
+
+created user name : devteam in home of pr31.7.22 instance 
+pwd : happy
+
+
+
+4th video
+1. permissions file and directory
+2. copying data from one server to another server
+
+syntax:
+
+sudo scp sourcepath username@ipaddress:destinationpath
+sudo scp /home/apache-maven-3.8.6-bin.tar.gz  testteam@204.236.199.101:/opt/ 
+
+
+instance : test
+ip : 204.236.199.101
+user : ubuntu
+keypair : "C:\Users\hp\Desktop\PEM FILES\test.pem"
+
+
+history of devteam @ pr31.7.22 instance
+ubuntu@ip-172-31-94-167:/$ history
+    1  cd /
+    2  ls
+    3  history
+    4  cal
+    5  sudo apt install ncal
+    6  sudo apt-get update
+    7  sudo apt-get upgrade
+    8  sudo reboot
+    9  ls
+   10  tree
+   11  rm -rf *
+   12  history
+   13  cal
+   14  sudo apt install ncal
+   15  cal
+   16  date
+   17  clear
+   18  cd /
+   19  ls
+   20  df -h
+   21  touch www.flipkart.com
+   22  ls
+   23  cal
+   24  clear
+   25  ls -la
+   26  touch one
+   27  touch mohan
+   28  sudo touch mohan
+   29  ls
+   30  touch devops
+   31  cd /home/ubuntu
+   32  touch devops aws linux
+   33  ls
+   34  touch mohan
+   35  mkdir jyo hanu ruth
+   36  ls
+   37  cd hanu
+   38  pwd
+   39  tree
+   40  sudo apt install tree
+   41  tree
+   42  cd /ubuntu
+   43  cd ..
+   44  tree
+   45  tree -la
+   46  touch byble
+   47  ls
+   48  mv byble bible
+   49  ls
+   50  cd /pot/
+   51  ls
+   52  cd /
+   53  ls
+   54  cd /opt/
+   55  touch m1
+   56  sudo touch m1
+   57  ls
+   58  vi m1
+   59  sudo vi m1
+   60  exit
+   61  history
+   62  clear
+   63  cd /
+   64  ls
+   65  cd /etc/
+   66  ls
+   67  cd ssh
+   68  ls
+   69  sudo vi sshd_config.d
+   70  sudo vi sshd_config
+   71  sudo service ssh restart
+   72  sudo visudo
+   73  clear
+   74  df -h
+   75  df
+   76  df -h
+   77  top
+   78  sudo vi m1
+   79  ced /
+   80  cd /
+   81  ls
+   82  cd /opt/
+   83  ls
+   84  sudo vi m1
+   85  ls
+   86  tree
+   87  cal
+   88  sudo adduser devteam
+   89  ls
+   90  cat m1
+   91  cat /etc/passwd
+   92  sudo su
+   93  histoy
+   94  cd /
+   95  history
+
+
+
+testteam history @ testteam instance
+
+
